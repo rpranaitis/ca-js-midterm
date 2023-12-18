@@ -27,4 +27,9 @@ function getUserAverageAge(users) {
   return result.toFixed();
 }
 
+function getUsersNames(users) {
+  return users.map(user => user.name);
+}
+
 console.log(getUserAverageAge(users));
+console.log(getUsersNames(users));
